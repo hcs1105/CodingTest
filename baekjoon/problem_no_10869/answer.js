@@ -1,4 +1,4 @@
-// 10869번 문제 - https://www.acmicpc.net/problem/10869WQ
+// 10869번 문제 - https://www.acmicpc.net/problem/10869
 
 const fs = require('fs');
 const filePath = process.platform === 'linux' ?  '/dev/stdin' : './data.txt';
