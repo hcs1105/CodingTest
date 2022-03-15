@@ -7,6 +7,7 @@ let input = fs.readFileSync(filePath).toString().split('\n');
 
 input = input.map(item => +item);
 */
+
 const readline = require('readline');
 const rl = readline.createInterface({
   input : process.stdin,
