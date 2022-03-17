@@ -10,7 +10,7 @@ function solution(items){
   const sum = items[0] * items[1] * items[2];
   const stringSum = String(sum);
 
-  const numArray = new Array(10).fill(0); // [0, 0, 0, 0, 0, 0, 0, 0]
+  const numArray = new Array(10).fill(0); // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
   for(let i = 0; i < stringSum.length; i++) {
     const sumChar = +stringSum[i];
